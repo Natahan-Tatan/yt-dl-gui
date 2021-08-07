@@ -1,0 +1,5 @@
+<map id="VideoDL::DownloadLastYoutubeDl" name="VideoDL::DownloadLastYoutubeDl">
+<area shape="rect" id="node1" title="Function to download last release of youtube&#45;dl. Download lastest version and put it into config dir." alt="" coords="375,5,616,32"/>
+<area shape="rect" id="node2" href="$class_video_d_l.html#a425e7537dadbe15101c6c5efc4f96b85" title="Main function for download thread." alt="" coords="192,5,327,32"/>
+<area shape="rect" id="node3" href="$class_video_d_l.html#ae129628bc70228580b1d3257e89e7348" title="Constructor." alt="" coords="5,5,144,32"/>
+</map>

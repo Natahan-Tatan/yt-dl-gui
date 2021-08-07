@@ -1,0 +1,131 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0305
+header_name {.h}
+code_name {.cxx}
+class MainWindowUI {
+  comment {The main window of the program} open
+} {
+  Function {MainWindowUI()} {open
+  } {
+    Fl_Window window {
+      label {Youtube downloader GUI} open
+      xywh {1312 643 535 155} type Double align 80 resizable non_modal visible
+    } {
+      Fl_Group {} {open
+        xywh {30 45 495 105} resizable
+      } {
+        Fl_Group setup_gui {
+          xywh {30 45 485 90}
+        } {
+          Fl_Input in_url {
+            label {URL:}
+            tooltip {The full video URL} xywh {65 45 350 25}
+          }
+          Fl_Button pb_download {
+            label Download
+            xywh {420 45 85 25} align 16 deactivate
+          }
+          Fl_Group {} {open
+            xywh {30 80 480 50}
+          } {
+            Fl_Check_Button chk_audio_only {
+              label {Audio only}
+              xywh {65 80 95 25} down_box DOWN_BOX
+            }
+            Fl_Box {} {
+              xywh {30 108 470 17} resizable
+            }
+          }
+          Fl_Group {} {open
+            xywh {145 80 370 50}
+          } {
+            Fl_Choice cb_audio_type {open
+              tooltip {Audio type (need ffmpeg)} xywh {180 80 145 25} down_box BORDER_BOX labeltype NO_LABEL align 8 deactivate
+            } {}
+            Fl_Box {} {
+              xywh {145 113 360 17} resizable
+            }
+          }
+          Fl_Box {} {
+            xywh {30 103 470 17} resizable
+          }
+        }
+        Fl_Group download_gui {open
+          xywh {30 115 475 35} hide
+        } {
+          Fl_Progress progress {
+            xywh {30 120 475 25} box GLEAM_UP_BOX selection_color 70
+          }
+        }
+        Fl_Box {} {
+          xywh {30 103 470 17} resizable
+        }
+      }
+      Fl_Menu_Bar {} {
+        xywh {-5 0 545 25} box ENGRAVED_BOX selection_color 184
+      } {
+        Submenu {} {
+          label File open
+          xywh {0 0 205 20}
+        } {
+          MenuItem menu_get_ytdl {
+            label {Get youtube-dl executable}
+            xywh {0 0 36 21} divider
+          }
+          MenuItem menu_quit {
+            label {Quit    }
+            xywh {0 0 132 20} shortcut 0x40071
+          }
+        }
+        Submenu {} {
+          label Help open
+          xywh {0 0 100 20}
+        } {
+          MenuItem menu_help {
+            label Help
+            xywh {0 0 100 20} shortcut 0xffbe divider
+          }
+          MenuItem menu_about {
+            label {About...}
+            xywh {0 0 100 20}
+          }
+        }
+      }
+    }
+  }
+}
+
+class AboutWindowUI {open
+} {
+  Function {AboutWindowUI()} {open
+  } {
+    Fl_Window window {
+      label {About Youtube downloader GUI} open
+      xywh {1370 655 365 310} type Double align 80 hide modal
+    } {
+      Fl_Help_View br_about {
+        xywh {25 125 315 130} labelfont 8
+      }
+      Fl_Button pb_close {
+        label Close
+        xywh {105 275 145 25}
+      }
+      Fl_Box box_title {
+        label {Youtube downloader GUI}
+        xywh {25 5 305 25} labelfont 1
+      }
+      Fl_Box {} {
+        label {A GUI for the youtube downloader tool youtube-dl}
+        xywh {25 30 305 25} align 128
+      }
+      Fl_Button pb_link {
+        label {https://youtube-dl.org/}
+        xywh {70 95 205 25} box NO_BOX labelcolor 217
+      }
+      Fl_Box {} {
+        label {You can find the offical website for the youtube-dl tool}
+        xywh {25 65 305 25} align 128
+      }
+    }
+  }
+}

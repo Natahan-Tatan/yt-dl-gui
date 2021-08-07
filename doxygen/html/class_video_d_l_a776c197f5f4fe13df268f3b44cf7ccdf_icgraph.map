@@ -1,0 +1,4 @@
+<map id="VideoDL::GetProgress" name="VideoDL::GetProgress">
+<area shape="rect" id="node1" title="Get the current percent of progress." alt="" coords="269,5,432,32"/>
+<area shape="rect" id="node2" href="$class_main_window.html#a4911e48c0ed9e8290ba635522e56d21c" title="Callback for trigger update progress bar INTERNAL USE ONLY This callback is call by FLTK when render." alt="" coords="5,5,221,32"/>
+</map>
