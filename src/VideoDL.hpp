@@ -25,7 +25,7 @@
 #ifndef VIDEODL_H
 #define VIDEODL_H
 
-#define VERSION "1.0"
+#define VERSION "1.0.0"
 
 #include <string>
 
