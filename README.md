@@ -6,7 +6,7 @@ Front-end for [youtube-dl](https://youtube-dl.org/) tool. **For the moment only 
 
 It requires the wget command (for download lastest youtube-dl program), python to execute the tool and ffmpeg for convert to audio.
 
-If download failed, you must try to download new you
+If download failed, you must try to download new youtube-dl from the menu **File**.
 
 ## Compilation
 ### Requirement
