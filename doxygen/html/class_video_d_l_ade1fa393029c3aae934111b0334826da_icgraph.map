@@ -1,6 +1,0 @@
-<map id="VideoDL::GetPathToYoutubeDl" name="VideoDL::GetPathToYoutubeDl">
-<area shape="rect" id="node1" title="Get the path to the youtube&#45;dl executable (default in the config dir of the user) For Unix,..." alt="" coords="664,31,879,57"/>
-<area shape="rect" id="node2" href="$class_video_d_l.html#a375af498812c385bd803a47fdca22502" title="Function to download last release of youtube&#45;dl. Download lastest version and put it into config dir." alt="" coords="375,5,616,32"/>
-<area shape="rect" id="node3" href="$class_video_d_l.html#a425e7537dadbe15101c6c5efc4f96b85" title="Main function for download thread." alt="" coords="192,31,327,57"/>
-<area shape="rect" id="node4" href="$class_video_d_l.html#ae129628bc70228580b1d3257e89e7348" title="Constructor." alt="" coords="5,31,144,57"/>
-</map>

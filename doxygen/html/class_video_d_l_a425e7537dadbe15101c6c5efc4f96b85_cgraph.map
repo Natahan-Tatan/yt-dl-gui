@@ -1,5 +1,0 @@
-<map id="VideoDL::Process" name="VideoDL::Process">
-<area shape="rect" id="node1" title="Main function for download thread." alt="" coords="5,31,140,57"/>
-<area shape="rect" id="node2" href="$class_video_d_l.html#a375af498812c385bd803a47fdca22502" title="Function to download last release of youtube&#45;dl. Download lastest version and put it into config dir." alt="" coords="188,5,429,32"/>
-<area shape="rect" id="node3" href="$class_video_d_l.html#ade1fa393029c3aae934111b0334826da" title="Get the path to the youtube&#45;dl executable (default in the config dir of the user) For Unix,..." alt="" coords="477,31,692,57"/>
-</map>

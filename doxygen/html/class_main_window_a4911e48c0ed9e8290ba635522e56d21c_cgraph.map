@@ -1,4 +1,0 @@
-<map id="MainWindow::UpdateProgress" name="MainWindow::UpdateProgress">
-<area shape="rect" id="node1" title="Callback for trigger update progress bar INTERNAL USE ONLY This callback is call by FLTK when render." alt="" coords="5,5,221,32"/>
-<area shape="rect" id="node2" href="$class_video_d_l.html#a776c197f5f4fe13df268f3b44cf7ccdf" title="Get the current percent of progress." alt="" coords="269,5,432,32"/>
-</map>
